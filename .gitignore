@@ -1,0 +1,15 @@
+/data/raw/*
+!/data/raw/e09-paper-knowledge/
+/data/raw/e09-paper-knowledge/*
+!/data/raw/e09-paper-knowledge/docs/
+/infra/*/data/
+/infra/*/logs/
+/infra/*/models/
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+experiments/e09/notebooks/_scratch/
